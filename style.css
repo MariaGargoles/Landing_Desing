@@ -1,0 +1,81 @@
+
+
+
+body {
+    background-color: whitesmoke;
+    opacity: 0.95;
+    font-family: "Instrument Sans", sans-serif;
+
+}
+
+.h1__title{
+    color: black;
+    text-align: left;
+    line-height: 0.4;
+    
+    
+}
+
+.container {
+    display: flex;
+  margin: auto;
+  
+}
+
+.text__container {
+    text-align: justify;
+    margin: 70px;
+    font-size: 25px;
+  
+}
+
+.img__container {
+position: relative;
+margin-left: 105px;
+
+}
+
+.img__img1__container {
+position: absolute;
+}
+.img__img2__container {
+    position: absolute;
+    left: 230px;
+    bottom: 10px;
+}
+
+.article__containers {
+    background-color: black;
+    opacity: 0.9;
+    display: flex;
+    justify-content: space-evenly;
+    width: 90%;
+    border-radius: 25px 25px;
+    margin: 40px auto;
+    padding-bottom: 35px;
+    font-size: 20px;
+  
+  }
+
+
+.article__containers__text {
+color: white;
+}
+
+svg {
+    width: 10%;
+  height: auto;
+  margin-top: 23px;
+}
+
+.text__bottom__container {
+    padding: 20px;
+    margin: 5px;
+    width: 150px;
+    border-radius: 35px 35px;
+    background-color: black;
+    color: white;
+    opacity: 0.8;
+    font-size: 20px;
+  
+}
