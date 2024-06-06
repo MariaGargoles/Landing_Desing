@@ -21,30 +21,37 @@ body {
 
 .container {
     display: flex;
-  position: absolute;
+    margin: 2rem;
+    padding: 2rem;
+  
 }
 
 .text__container {
     text-align: justify;
-    margin: 70px;
-    font-size: 25px;
-    position: relative;
+    margin: 5rem;
+    font-size: 1.4em;
+    position: absolute;
+    padding-bottom: 1rem;
+    
   
 }
 
 .img__container {
-position: relative;
-margin-left: 105px;
+
+
 
 }
 
 .img__img1__container {
-position: absolute;
+position: relative;
+left: 100%;
+top: 15%;
+
 }
 .img__img2__container {
-    position: absolute;
-    left: 230px;
-    bottom: 10px;
+    position: relative;
+    left: 90%;
+    
 }
 
 .article__containers {
@@ -53,10 +60,11 @@ position: absolute;
     display: flex;
     justify-content: space-evenly;
     width: 90%;
-    border-radius: 25px 25px;
-    margin: 40px auto;
-    padding-bottom: 35px;
-    font-size: 20px;
+    border-radius: 1.5rem 1.5rem;
+    font-size: 1.25rem;
+    padding: 3rem;
+    margin-top: 8rem;
+
   
   }
 
@@ -68,17 +76,17 @@ color: white;
 svg {
     width: 10%;
   height: auto;
-  margin-top: 23px;
+  margin-top: 1.4rem;
 }
 
 .text__bottom__container {
-    padding: 20px;
-    margin: 5px;
-    width: 150px;
-    border-radius: 35px 35px;
+    padding: 1.2rem;
+    margin: 3rem;
+    width: 9.3rem;
+    border-radius: 2.18rem 2.18rem;
     background-color: black;
     color: white;
     opacity: 0.8;
-    font-size: 20px;
+    font-size: 1.25em;
   
 }
